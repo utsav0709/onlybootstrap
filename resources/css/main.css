@@ -1,0 +1,28 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+.height {
+ min-height: 100vh;
+}
+.title-underline {
+  height: 5px;
+  width: 100px;
+  margin: auto;
+}
+.bg-fixed {
+  background-image: url(../images/projects-1.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+.height-80 {
+  min-height: 80vh;
+}
+#filler {
+  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/projects-2.jpeg) center/cover no-repeat fixed;
+}
+#progress {
+  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/projects-3.jpeg) center/cover no-repeat fixed;
+}
